@@ -50,5 +50,4 @@ class ViewHolderCountry extends RecyclerView.ViewHolder {
 
         Glide.with(binding.imgFlag).load(country.getFlag()).into(binding.imgFlag);
     }
-
 }
